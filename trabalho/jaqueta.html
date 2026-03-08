@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>produto</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f9f9f9;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    .produto-container {
+      text-align: center;
+      background: #fff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      max-width: 400px;
+    }
+    .produto-container img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 15px;
+    }
+    .produto-container h1 {
+      margin-bottom: 10px;
+    }
+    .produto-container p {
+      margin: 10px 0;
+    }
+    .btn-comprar {
+      display: inline-block;
+      padding: 12px 24px;
+      background: #c7a46f;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      transition: 0.3s;
+      text-decoration: none;
+    }
+    .btn-comprar:hover {
+      background: #5e481f;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="produto-container">
+    <h1>Jaqueta de Couro</h1>
+    <img src="imagens/348dbbcf-e6f9-4bd5-9e89-655fd60a5169.jpg" alt="Jaqueta Couro">
+    <p><strong>R$ 359,90</strong></p>
+    <h3>Descrição</h3>
+    <p>Jaqueta de couro legitimo preta<p>
+    <button class="btn-comprar" onclick="window.location.href='cadastro.html'">Comprar</button>
+  </div>
+
+</body>
+</html>
