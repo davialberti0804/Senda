@@ -1,42 +1,30 @@
-👕 Senda - E-commerce de Moda
-Este projeto é o desenvolvimento de uma plataforma de e-commerce completa para a marca Senda. Ele foi criado para aplicar conceitos de desenvolvimento web front-end, focando em uma interface moderna, organizada e funcional.
+# Senda E-commerce Project
 
-🚀 Funcionalidades
-O projeto é composto por múltiplas páginas integradas que simulam o fluxo real de uma loja virtual:
+## Overview
+Senda is a comprehensive e-commerce platform designed to enable businesses to create an online presence with ease. The platform provides a variety of features that cater to both sellers and consumers, ensuring a smooth shopping experience.
 
-Página Inicial (index.html): Vitrine principal com galeria de produtos (Camisas, Calças e Jaquetas) e banners promocionais.
+## Features
+- **User-Friendly Interface**: The platform is designed with the user in mind, ensuring a clean and intuitive interface.
+- **Secure Transactions**: All transactions are encrypted and secure, providing peace of mind for both buyers and sellers.
+- **Inventory Management**: Sellers can manage their inventory easily, track stock levels, and receive notifications for restocking.
+- **Payment Integration**: The platform supports multiple payment gateways to facilitate various payment methods.
+- **Analytics Dashboard**: Sellers can track their sales, customer engagement, and other metrics through an integrated analytics dashboard.
+- **Responsive Design**: The platform is fully responsive, providing a seamless shopping experience on both mobile and desktop devices.
 
-Páginas de Produto Individualizadas: Interfaces específicas para itens como a Camisa Kuromi e a Calça Jeans Reta, contendo descrições e botões de compra.
+## Installation
+To set up Senda on your local machine, follow these steps:
 
-Sistema de Cadastro (cadastro.html): Formulário estruturado com campos para Nome, E-mail e Senha.
+1. **Clone the repository**:  `git clone https://github.com/davialberti0804/Senda.git`
+2. **Navigate to the project directory**: `cd Senda`
+3. **Install dependencies**: `npm install`
+4. **Start the development server**: `npm start`
 
-Tabelas de Medidas: Seções detalhadas com medidas do PP ao GG para auxiliar a experiência de compra do usuário.
+## Contributing
+We welcome contributions to the Senda project. Please follow the guidelines below:
+- Fork the repository
+- Create a new branch for your feature or bug fix
+- Commit your changes and push to the branch
+- Open a pull request
 
-Interatividade com JavaScript: Lógica para adicionar itens ao carrinho via localStorage e validação de senhas no cadastro.
-
-🛠️ Tecnologias Utilizadas
-HTML5: Estruturação semântica de todas as páginas.
-
-CSS3: Estilização personalizada utilizando variáveis (como dourado e cinza) e layouts responsivos.
-
-JavaScript: Manipulação do DOM para interatividade e feedback ao usuário.
-
-Google Fonts: Uso da fonte Montserrat para uma tipografia limpa e profissional.
-
-📂 Estrutura de Arquivos
-A organização do projeto segue a seguinte estrutura:
-
-index.html - Home da loja.
-
-cadastro.html - Página de novos usuários.
-
-camisa.html, calca.html, jaqueta.html - Detalhes dos produtos.
-
-style.css - Estilização global.
-
-script.js - Lógica e interatividade.
-
-Como visualizar o projeto
-Baixe ou clone este repositório.
-
-Abra o arquivo index.html em qualquer navegador.
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
